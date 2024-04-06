@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap">
+</head>
+<body>
+  <div class="highlighted-section"></div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#" onclick="scrollToSection('benefits')">Benefits</a></li>
+                    <li><a href="#" onclick="scrollToSection('job-container')">How it works</a></li>
+                    <li><a href="#" onclick="scrollToSection('contact')">Contact</a></li>
+                    <!-- <li><a href="#" onclick="scrollToSection('contact')">Contact</a></li> -->
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                  </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>NeuralNudge!</h1>
+                <p> The <span>Student coach</span> you didn't know you needed!</p>
+                <p class="subtext">The next generation AI coach NeuralNudge will help tutor you through anything you need!</p>
+            </div>
+    </div>
+
+
+
+
+<!--------- portfolio -------->
+
+<!-- <div id="job-container">
+    <h1 class="title-experience">123</h1>
+    <div class="job-date">123</div>
+    <div class="job-header1">123</div>
+    <ul class="job-experience">
+      <li>123 </li>
+      <li>123 </li>
+      
+    
+    </ul>
+    <div id = "bubble-container">
+      <div class="bubble"> 123 </div>
+      <div class="bubble"> 123 </div>
+      <div class="bubble"> S123</div>
+      <div class="bubble">123</div>
+      <div class="bubble"> 123</div>
+      <div class="bubble"> 123 </div>
+    </div>
+
+    <div class="blank"></div>
+    <div class="job-date">1232</div>
+    <div class="job-header1">123s </div>
+    <ul class="job-experience">
+      <li>Performed </li>
+      <li>Utilized  </li>
+
+
+     
+    
+    </ul>
+    <div id = "bubble-container">
+      <div class="bubble"> 123um </div>
+      <div class="bubble"> P123on </div>
+      <div class="bubble"> 123est </div>
+      <div class="bubble"> J123ins </div>
+      <div class="bubble"> J123it </div>
+      <div class="bubble"> 123ra </div>
+      <div class="bubble"> G123 </div>
+    </div>
+
+    <div class="blank"></div>
+    <div class="job-date">123</div>
+    <div class="job-header1">123</div>
+    <ul class="job-experience">
+      <li>A123d </li>
+      <li>Be123me </li>
+
+   
+    
+    </ul>
+    <div id = "bubble-container">
+      <div class="bubble"> Selenium </div>
+      <div class="bubble"> Python </div>
+      <div class="bubble"> Jira </div>
+      <div class="bubble"> Git </div>
+    </div>
+
+    <div class="blank"></div>
+    <div class="job-date">J123</div>
+    <div class="job-header1">D123</div>
+    <ul class="job-experience">
+      <li>123n </li>
+      <li>Wr123lex </li>
+     
+    </ul>
+    <div id = "bubble-container">
+      <div class="bubble"> 123L </div>
+      <div class="bubble"> M11f123e </div>
+      <div class="bubble"> L123ux </div>
+    </div>
+
+    <div class="blank"></div>
+    <div class="job-date">1230</div>
+    <div class="job-header1">123 </div>
+    <ul class="job-experience">
+      <li>123</li>
+      <li>123</li>
+  
+    
+    </ul>
+    <div id = "bubble-container">
+      <div class="bubble"> 123 </div>
+    </div>
+
+  </div> -->
+
+<!--------- Benefits -------->
+<div id="benefits">
+    <div class="container">
+        <h1 class="sub-title" style="text-align: center;">Benefits</h1>
+        <div class="education-section">
+                <div>
+                        <i class="fas fa-graduation-cap"></i>
+                        <h2>Learn fast and efficiently</h2>
+                        <p>
+                                <img src="images\3911084.jpg" alt="Image Description" style="max-width: 100%;">
+                        </p>
+                </div>
+                <div>
+                        <i class="fas fa-book"></i>
+                        <h2>Personalized for you</h2>
+                        <p>
+                                <img src="images/image.png" alt="Image Description" style="max-width: 100%;">
+                        </p>
+                </div>
+                <div>
+                        <i class="fas fa-graduation-cap"></i>
+                        <h2>Multi-lingual by nature</h2>
+                        <p>
+                                <img src="images/371003-PBDS20-401.jpg" alt="Image Description" style="max-width: 100%;">
+                        </p>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+<!--------- How it works -------->
+
+<div id="job-container">
+        <div class="container">
+                <div class="row">
+                        <div class="about-col-1">
+                                <img src="images/book.png">
+                        </div>
+                        <div class="about-col-2">
+                                <h1 class="sub-title">How it works</h1>
+                                <p>
+                                    <ul>
+                                        <li><strong>Upload your assignment, write your questions, or talk about the issues you encounter.</strong></li>
+                                        <br><br>
+                                        
+                                        <li><strong>Learn more efficiently by combining multiple learning paradigms.</strong></li>
+                                        <br><br>
+                                        <li><strong>Get personalized exercises to perfect your understanding.</strong></li>
+                                        <br><br>
+                                        <li><strong>Track your improvement and get instant feedback.</strong></li>
+                                        <br><br>
+                                    </ul>
+                                </p>
+
+                        </div>
+                </div>
+        </div>
+</div>
+
+
+
+<!--------- contact -------->
+<div id="contact">
+  <div class="container">
+    <h1 class="sub-title-contact">Contact Me</h1>
+    <div class="flex-container">
+      <div class="contact-left">
+        <div class="con">
+          <i class="fas fa-paper-plane"></i>
+          <span class="text">Sign up with your email: <input type="email" placeholder="Enter your email" id="email-input"></span>
+          <button onclick="saveEmail()">Save</button>
+        </div>
+<!---        <div class="con2">
+          <i class="fas fa-phone"></i>
+          <span class="text">anything</span>
+        </div>
+--->        
+      </div>
+      
+      
+    </div>
+  </div>
+</div>
+
+<div class="icon-container" style="display: none;">
+  <i class="fas fa-arrow-circle-up" onclick=scrollToTop()></i>
+  <span class="text">Go to Top</span>
+</div>
+
+<div><a href="http://www.freepik.com">Images designed by stories / Freepik</a></div>
+
+<!-- SCRIPTS -->
+
+<script>
+  const highlightedSection = document.querySelector('.highlighted-section');
+
+// Listen for mouse movement
+document.addEventListener('mousemove', function(event) {
+  // Calculate the gradient size based on the cursor position
+  const gradientSize = Math.min(window.innerWidth, window.innerHeight) / 2;
+
+  // Calculate the position of the radial gradient based on the cursor's coordinates
+  const gradientX = event.clientX - gradientSize / 2;
+  const gradientY = event.clientY - gradientSize / 2;
+
+  // Apply the radial gradient style to create the ombre effect
+  highlightedSection.style.background = `radial-gradient(circle at ${event.clientX}px ${event.clientY}px, #e4ffea 20%, #89ffa3 70%)`;
+});
+</script>
+
+<script>
+  var sidemenu = document.getElementById("sidemenu")
+
+  function openmenu() {
+    sidemenu.style.right = "0"
+  }
+  function closemenu() {
+    sidemenu.style.right = "-200px"
+  }
+</script>
+
+<script>
+    function scrollToSection(sectionId) {
+      var targetSection = document.getElementById(sectionId);
+  
+      // Using the smooth scroll behavior for a smooth scrolling effect
+      
+      targetSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+
+<script>
+// Function to scroll to the top
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+</script>
+
+
+<script>
+  function saveEmail() {
+    var email = document.getElementById('email-input').value;
+    alert('Email ' + email + ' has been saved!');
+  }
+</script>
+
+<script type="text/javascript" src="evercookie.js"></script>
+
+<script>
+var ec = new evercookie(); 
+
+// set a cookie "id" to "12345"
+// usage: ec.set(key, value)
+ec.set("id", "12345"); 
+
+// retrieve a cookie called "id" (simply)
+ec.get("id", function(value) { alert("Cookie value is " + value) }); 
+
+// or use a more advanced callback function for getting our cookie
+// the cookie value is the first param
+// an object containing the different storage methods
+// and returned cookie values is the second parameter
+function getCookie(best_candidate, all_candidates)
+{
+    alert("The retrieved cookie is: " + best_candidate + "\n" +
+        "You can see what each storage mechanism returned " +
+        "by looping through the all_candidates object.");
+
+    for (var item in all_candidates)
+        document.write("Storage mechanism " + item +
+            " returned: " + all_candidates[item] + "<br>");
+}
+ec.get("id", getCookie); 
+
+// we look for "candidates" based off the number of "cookies" that
+// come back matching since it's possible for mismatching cookies.
+// the best candidate is most likely the correct one
+</script> 
+
+<script>
+function showOnScroll() {
+  var hiddenDivs = document.querySelectorAll('.icon-container');
+  for (var i = 0; i < hiddenDivs.length; i++) {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      hiddenDivs[i].style.display = 'block'; // Show the element
+    } else {
+      hiddenDivs[i].style.display = 'none'; // Hide the element
+    }
+  }
+}
+
+// Add event listener for scroll events
+window.addEventListener('scroll', showOnScroll);
+</script>
+
+</body>
+</html>
