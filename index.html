@@ -213,9 +213,16 @@
 </div>
 
 <div><a href="http://www.freepik.com">Images designed by stories / Freepik</a></div>
+<p>This site has been visited <span id="visits"></span> times.</p>        
 
 <!-- SCRIPTS -->
-
+<script>
+function cb(response) {
+    document.getElementById('visits').innerText = response.value;
+}
+</script>
+<script async src="https://api.countapi.xyz/hit/mysite.com/visits?callback=cb"></script>
+        
 <script>
   const highlightedSection = document.querySelector('.highlighted-section');
 
